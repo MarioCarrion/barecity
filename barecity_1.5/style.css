@@ -244,6 +244,7 @@ ul.post-meta span.post-meta-key {
 	padding: 0px 0 10px 20px;
 	float: right;
 	width: 144px;
+	font-size: 11px;
 }
 
 #sidebar form {
@@ -349,7 +350,6 @@ ul.post-meta span.post-meta-key {
 }
 
 #wp-calendar caption {
-	font-size: 12px;
 	color: #666;
 	text-align: left;
 	font-weight: bold;

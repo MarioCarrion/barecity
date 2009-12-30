@@ -1,5 +1,9 @@
 2009-12-30  Mario Carrion  <mario@carrion.mx>
 
+	* barecity_1.5/style.css: Font updated for h2 in sidebar.
+
+2009-12-30  Mario Carrion  <mario@carrion.mx>
+
 	* barecity_1.5/style.css: font-weight changes, sidebar headers were
 	not "visible".
 
