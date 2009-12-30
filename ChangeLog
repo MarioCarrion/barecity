@@ -1,5 +1,10 @@
 2009-12-30  Mario Carrion  <mario@carrion.mx>
 
+	* barecity_1.5/style.css: font-weight changes, sidebar headers were
+	not "visible".
+
+2009-12-30  Mario Carrion  <mario@carrion.mx>
+
 	* barecity_1.5/header.php: Removed commented code.
 	* barecity_1.5/mariocarrion.xcf: Original gimp image.
 
