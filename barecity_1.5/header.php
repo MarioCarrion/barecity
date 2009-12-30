@@ -24,7 +24,6 @@
 		<div id="headwrap">
 			<div id="header">
 				<a href="<?php bloginfo('url'); ?>/">
-				  <?php /* bloginfo('name'); */ ?>
 				  <span id="himage"><img src="<?php bloginfo('stylesheet_directory'); ?>/mariocarrion.png" /></span> 
 				</a>
 			</div>
