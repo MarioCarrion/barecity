@@ -11,6 +11,18 @@ get_header();
 		<?php the_content(__('(more...)')); ?>
 	</div>
 
+  <?php 
+    // This sections needs the patched "URL Shortener 1.7"
+    // http://github.com/mariocarrion/url-shortener
+    $shorten_url = fts_show_shorturl($post);
+    if ($shorten_url != ""):
+  ?> 
+	<div class="shortenurl">
+	Shorten URL: <a href="<?php echo $shorten_url; ?>"><?php echo $shorten_url; ?><img src="<?php bloginfo('stylesheet_directory'); ?>/shortcut-icon.png" alt="shorten url" /></a>
+	</div>
+
+  <?php endif; ?>
+
 	<div class="feedback">
 		<?php wp_link_pages(); ?>
 		<?php comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')); ?>

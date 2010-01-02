@@ -1,3 +1,9 @@
+2010-01-02  Mario Carrion  <mario@carrion.mx>
+
+	* barecity_1.5/index.php, 
+	  barecity_1.5/style.css,
+	  barecity_1.5/shortcut-icon.png: Added url-shortener.
+
 2009-12-30  Mario Carrion  <mario@carrion.mx>
 
 	* barecity_1.5/style.css: Font updated for h2 in sidebar.

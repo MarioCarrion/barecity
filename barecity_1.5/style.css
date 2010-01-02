@@ -126,6 +126,13 @@ ul.post-meta span.post-meta-key {
 	clear: both;
 }
 
+.shortenurl {
+	color: #666;
+	font-size:11px;
+	margin: 25px 0 0 0;
+	clear: both;
+}
+
 .meta {
 	font-size: 10px;
 }
