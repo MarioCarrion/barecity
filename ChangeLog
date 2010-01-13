@@ -1,3 +1,9 @@
+2010-01-13  Mario Carrion  <mario@carrion.mx>
+
+	* barecity_1.5/style.css: Centering.
+	* barecity_1.5/footer.php: Copyright updated.
+	* .gitignore: File added. Ignores *.swp
+
 2010-01-02  Mario Carrion  <mario@carrion.mx>
 
 	* barecity_1.5/index.php, 

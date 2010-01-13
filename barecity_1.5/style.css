@@ -387,9 +387,8 @@ ul.post-meta span.post-meta-key {
 
 #rap {
 	background-color: #FFFFFF;
-	margin-right:auto;
-	margin-left:130px;
-	width:810px; /* FIXME */
+	margin: 0 auto;
+	width:810px;
 	padding: 6px;
 }
 
