@@ -433,3 +433,9 @@ img.alignleft {
 	margin: 0 7px 2px 0;
 	display: inline;
 }
+
+img.avatar {
+	float: left;
+	margin: 0 25px 10px 0;
+	display: inline;
+}
