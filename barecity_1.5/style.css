@@ -90,6 +90,7 @@ ol#comments li p {
 
 #commentlist li{
 	margin-left:-22px;
+	list-style-type: none;
 }
 
 p, li, .feedback {
@@ -436,6 +437,6 @@ img.alignleft {
 
 img.avatar {
 	float: left;
-	margin: 0 25px 10px 0;
-	display: inline;
+	padding: 4px;
+	margin: 0 15px 0 0;
 }

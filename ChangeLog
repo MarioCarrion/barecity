@@ -1,5 +1,10 @@
 2010-02-17  Mario Carrion  <mario@carrion.mx>
 
+	* barecity_1.5/style.css: Style updated.
+	* barecity_1.5/comments.php: Size reduced to 45px.
+
+2010-02-17  Mario Carrion  <mario@carrion.mx>
+
 	* barecity_1.5/comments.php: 
 	* barecity_1.5/style.css: Gravatar support added.
 

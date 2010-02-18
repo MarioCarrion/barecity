@@ -9,15 +9,15 @@
 </h2>
 
 <?php if ( $comments ) : ?>
-	<ol id="commentlist">
+	<ul id="commentlist">
 		<?php foreach ($comments as $comment) : ?>
 			<li id="comment-<?php comment_ID() ?>">
-			<?php if (function_exists ('get_avatar')) { echo get_avatar ($comment, '50'); } ?>
+			<?php if (function_exists ('get_avatar')) { echo get_avatar ($comment, '45'); } ?>
 			<?php comment_text() ?>
 			<div class="commentby"><cite><?php comment_type(__('Comment'), __('Trackback'), __('Pingback')); ?> <?php _e('by'); ?> <?php comment_author_link() ?> &#8212; <?php comment_date() ?> @ <a href="#comment-<?php comment_ID() ?>"><?php comment_time() ?></a></cite> <?php edit_comment_link(__("Edit This"), ' |'); ?></div>
 			</li>
 		<?php endforeach; ?>
-	</ol>
+	</ul>
 <?php else : // If there are no comments yet ?>
 	<p><?php _e('No comments yet.'); ?></p>
 <?php endif; ?>
